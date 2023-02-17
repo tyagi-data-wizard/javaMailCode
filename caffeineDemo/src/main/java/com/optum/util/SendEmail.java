@@ -24,11 +24,11 @@ public class SendEmail {
 		
 		System.out.print("SendEmail util Called");
 	      // Sender's email ID needs to be mentioned
-	     String from = "noreply@uhc.com";
+	     String from = "noreply@uhc.com";		//have to remove this from sender as well
 		
 		
 	      // Assuming you are sending email from localhost
-	      String host = "mailo2.uhc.com";
+	      String host = "mailo2.uhc.com"; 		//have to remove this host
 	      //inbound.uhc.com
 	      // Get system properties
 	      Properties properties = System.getProperties();
