@@ -1,0 +1,5 @@
+com\optum\CaffeineDemo\CamundaBpmProcessApplication.class
+com\optum\CaffeineDemo\MailDelegate.class
+com\optum\CaffeineDemo\LoggerDelegate.class
+com\optum\Util\SendEmail.class
+com\optum\CaffeineDemo\ProcessConstants.class
