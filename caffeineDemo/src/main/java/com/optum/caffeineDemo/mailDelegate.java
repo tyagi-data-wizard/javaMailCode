@@ -16,13 +16,13 @@ public class mailDelegate implements JavaDelegate {
 		 System.out.print("Mail Delegate Class Called");
 		
          String subject = "The process is running";
-		 String toEmail = "ujjwal_tyagi@optum.com";
-		 String cc1Email = "palki1@optum.com"; 
-		 String cc2Email = "amit.bhutani@optum.com";
-		 String cc3Email = "shwetabh_srivastava@optum.com";
-		 String cc4Email = "ganeshbabu_r@optum.com";
-		 String emailBodyText = "Hello,\n This is an auto-generated mail from Team Caffeine as part of the demo project.\n Thanks";
-		 String resultsFileName = "ujjwal_tyagi@optum.com";
+		 String toEmail = "";
+		 String cc1Email = ""; 
+		 String cc2Email = "";
+		 String cc3Email = "";
+		 String cc4Email = "";
+		 String emailBodyText = "Hello,\n This is an auto-generated mail.\n Thanks";
+		 String resultsFileName = "";
 		 SendEmail sendEmail = new SendEmail();
 		 
 		 sendEmail.mailme(toEmail,
